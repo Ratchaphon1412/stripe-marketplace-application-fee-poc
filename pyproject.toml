@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "stripe-marketplace-application-fee-poc"
+version = "0.1.0"
+description = ""
+authors = ["Ratchaphon1412 <Ratchaphon.h111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+certifi = "2021.5.30"
+chardet = "4.0.0"
+click = "8.0.1"
+flask = "2.0.1"
+idna = "3.2"
+itsdangerous = "2.0.1"
+jinja2 = "3.0.1"
+markupsafe = "2.0.1"
+requests = "2.26.0"
+stripe = "9.1.0"
+toml = "0.10.2"
+werkzeug = "2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

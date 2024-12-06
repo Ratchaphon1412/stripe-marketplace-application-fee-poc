@@ -1,0 +1,31 @@
+{
+  "name": "stripe-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel watch",
+    "build": "parcel build"
+  },
+  "source": "public/index.html",
+  "dependencies": {
+    "@stripe/connect-js": "3.3.13",
+    "vue": "^3.2.38",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
