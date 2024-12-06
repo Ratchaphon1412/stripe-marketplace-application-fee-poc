@@ -5,7 +5,7 @@ import stripe
 import os
 
 # This is your test secret API key.
-stripe.api_key = 'sk_test_51QQsJ7KTcOVjfrni8rcmnEgnEAV58MYksWn86p8E2BXTBovy4e1LZjp6YPIOFcpRWqcTP1iYqPJfKzml48tjXK4K008BMJggUO'
+stripe.api_key = '<api_key>'
 
 stripe.api_version = '2023-10-16'
 
